@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# SQLite databases (incl. WAL sidecar files)
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store

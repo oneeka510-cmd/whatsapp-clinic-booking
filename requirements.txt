@@ -1,0 +1,12 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0.30
+pydantic>=2.7
+pydantic-settings>=2.3
+httpx>=0.27
+
+# Required on Windows (no system tz database) so zoneinfo can resolve "Asia/Kolkata".
+tzdata
+
+# Tests
+pytest>=8.0
